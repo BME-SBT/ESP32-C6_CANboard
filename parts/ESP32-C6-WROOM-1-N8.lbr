@@ -1,0 +1,226 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="XCVR_ESP32-C6-WROOM-1-N8">
+<text x="-9" y="13.25" size="1.27" layer="25">&gt;NAME</text>
+<text x="-9" y="-14.5" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-9" y1="-12.75" x2="9" y2="-12.75" width="0.127" layer="51"/>
+<wire x1="-9" y1="12.75" x2="9" y2="12.75" width="0.127" layer="51"/>
+<wire x1="9" y1="12.75" x2="9" y2="-12.75" width="0.127" layer="51"/>
+<wire x1="-9" y1="-12.75" x2="9" y2="-12.75" width="0.127" layer="21"/>
+<wire x1="-9" y1="-12.75" x2="-9" y2="-12.02" width="0.127" layer="21"/>
+<wire x1="9" y1="-12.02" x2="9" y2="-12.75" width="0.127" layer="21"/>
+<wire x1="-9" y1="6.03" x2="-9" y2="12.75" width="0.127" layer="21"/>
+<wire x1="-9" y1="12.75" x2="9" y2="12.75" width="0.127" layer="21"/>
+<wire x1="9" y1="12.75" x2="9" y2="6.03" width="0.127" layer="21"/>
+<rectangle x1="-9" y1="6.75" x2="9" y2="12.75" layer="43"/>
+<rectangle x1="-9" y1="6.75" x2="9" y2="12.75" layer="41"/>
+<wire x1="-9.75" y1="13" x2="-9.75" y2="-13" width="0.05" layer="39"/>
+<wire x1="-9.75" y1="-13" x2="9.75" y2="-13" width="0.05" layer="39"/>
+<wire x1="9.75" y1="-13" x2="9.75" y2="13" width="0.05" layer="39"/>
+<wire x1="9.75" y1="13" x2="-9.75" y2="13" width="0.05" layer="39"/>
+<wire x1="-9" y1="-12.75" x2="-9" y2="12.75" width="0.127" layer="51"/>
+<circle x="-10" y="5.25" radius="0.1" width="0.2" layer="21"/>
+<circle x="-10" y="5.25" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-8.75" y="5.26" dx="1.5" dy="0.9" layer="1"/>
+<smd name="2" x="-8.75" y="3.99" dx="1.5" dy="0.9" layer="1"/>
+<smd name="3" x="-8.75" y="2.72" dx="1.5" dy="0.9" layer="1"/>
+<smd name="4" x="-8.75" y="1.45" dx="1.5" dy="0.9" layer="1"/>
+<smd name="5" x="-8.75" y="0.18" dx="1.5" dy="0.9" layer="1"/>
+<smd name="6" x="-8.75" y="-1.09" dx="1.5" dy="0.9" layer="1"/>
+<smd name="7" x="-8.75" y="-2.36" dx="1.5" dy="0.9" layer="1"/>
+<smd name="8" x="-8.75" y="-3.63" dx="1.5" dy="0.9" layer="1"/>
+<smd name="9" x="-8.75" y="-4.9" dx="1.5" dy="0.9" layer="1"/>
+<smd name="10" x="-8.75" y="-6.17" dx="1.5" dy="0.9" layer="1"/>
+<smd name="11" x="-8.75" y="-7.44" dx="1.5" dy="0.9" layer="1"/>
+<smd name="12" x="-8.75" y="-8.71" dx="1.5" dy="0.9" layer="1"/>
+<smd name="13" x="-8.75" y="-9.98" dx="1.5" dy="0.9" layer="1"/>
+<smd name="14" x="-8.75" y="-11.25" dx="1.5" dy="0.9" layer="1"/>
+<smd name="15" x="8.75" y="-11.25" dx="1.5" dy="0.9" layer="1"/>
+<smd name="16" x="8.75" y="-9.98" dx="1.5" dy="0.9" layer="1"/>
+<smd name="17" x="8.75" y="-8.71" dx="1.5" dy="0.9" layer="1"/>
+<smd name="18" x="8.75" y="-7.44" dx="1.5" dy="0.9" layer="1"/>
+<smd name="19" x="8.75" y="-6.17" dx="1.5" dy="0.9" layer="1"/>
+<smd name="20" x="8.75" y="-4.9" dx="1.5" dy="0.9" layer="1"/>
+<smd name="21" x="8.75" y="-3.63" dx="1.5" dy="0.9" layer="1"/>
+<smd name="22" x="8.75" y="-2.36" dx="1.5" dy="0.9" layer="1"/>
+<smd name="23" x="8.75" y="-1.09" dx="1.5" dy="0.9" layer="1"/>
+<smd name="24" x="8.75" y="0.18" dx="1.5" dy="0.9" layer="1"/>
+<smd name="25" x="8.75" y="1.45" dx="1.5" dy="0.9" layer="1"/>
+<smd name="26" x="8.75" y="2.72" dx="1.5" dy="0.9" layer="1"/>
+<smd name="27" x="8.75" y="3.99" dx="1.5" dy="0.9" layer="1"/>
+<smd name="28" x="8.75" y="5.26" dx="1.5" dy="0.9" layer="1"/>
+<smd name="29_5" x="-1.505" y="-0.46" dx="0.8" dy="0.8" layer="1"/>
+<smd name="29_1" x="-2.755" y="0.79" dx="0.8" dy="0.8" layer="1"/>
+<smd name="29_2" x="-1.505" y="0.79" dx="0.8" dy="0.8" layer="1"/>
+<smd name="29_3" x="-0.255" y="0.79" dx="0.8" dy="0.8" layer="1"/>
+<smd name="29_4" x="-2.755" y="-0.46" dx="0.8" dy="0.8" layer="1"/>
+<smd name="29_6" x="-0.255" y="-0.46" dx="0.8" dy="0.8" layer="1"/>
+<smd name="29_7" x="-2.755" y="-1.71" dx="0.8" dy="0.8" layer="1"/>
+<smd name="29_8" x="-1.505" y="-1.71" dx="0.8" dy="0.8" layer="1"/>
+<smd name="29_9" x="-0.255" y="-1.71" dx="0.8" dy="0.8" layer="1"/>
+<pad name="30_1" x="-2.13" y="0.79" drill="0.25" diameter="0.35" stop="no"/>
+<pad name="30_2" x="-0.88" y="0.79" drill="0.25" diameter="0.35" stop="no"/>
+<pad name="30_3" x="-2.755" y="0.165" drill="0.25" diameter="0.35" stop="no"/>
+<pad name="30_4" x="-1.505" y="0.165" drill="0.25" diameter="0.35" stop="no"/>
+<pad name="30_5" x="-0.255" y="0.165" drill="0.25" diameter="0.35" stop="no"/>
+<pad name="30_6" x="-2.13" y="-0.46" drill="0.25" diameter="0.35" stop="no"/>
+<pad name="30_7" x="-0.88" y="-0.46" drill="0.25" diameter="0.35" stop="no"/>
+<pad name="30_8" x="-2.755" y="-1.085" drill="0.25" diameter="0.35" stop="no"/>
+<pad name="30_9" x="-1.505" y="-1.085" drill="0.25" diameter="0.35" stop="no"/>
+<pad name="30_10" x="-0.255" y="-1.085" drill="0.25" diameter="0.35" stop="no"/>
+<pad name="30_11" x="-2.13" y="-1.71" drill="0.25" diameter="0.35" stop="no"/>
+<pad name="30_12" x="-0.88" y="-1.71" drill="0.25" diameter="0.35" stop="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ESP32-C6-WROOM-1-N8">
+<text x="-15.24" y="23.622" size="1.778" layer="95">&gt;NAME</text>
+<text x="-15.24" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="15.24" y1="22.86" x2="-15.24" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="22.86" x2="-15.24" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-22.86" x2="15.24" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-22.86" x2="15.24" y2="22.86" width="0.254" layer="94"/>
+<pin name="GND" x="20.32" y="-20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="3V3" x="20.32" y="20.32" length="middle" direction="pwr" rot="R180"/>
+<pin name="EN" x="-20.32" y="15.24" length="middle" direction="in"/>
+<pin name="IO4" x="-20.32" y="0" length="middle"/>
+<pin name="IO5" x="-20.32" y="-2.54" length="middle"/>
+<pin name="IO6" x="-20.32" y="-5.08" length="middle"/>
+<pin name="IO7" x="-20.32" y="-7.62" length="middle"/>
+<pin name="IO0" x="-20.32" y="10.16" length="middle"/>
+<pin name="IO1" x="-20.32" y="7.62" length="middle"/>
+<pin name="IO8" x="-20.32" y="-10.16" length="middle"/>
+<pin name="IO10" x="20.32" y="15.24" length="middle" rot="R180"/>
+<pin name="IO11" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="IO12" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="IO13" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="IO2" x="-20.32" y="5.08" length="middle"/>
+<pin name="IO3" x="-20.32" y="2.54" length="middle"/>
+<pin name="TXD0/GPIO16" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="RXD0/GPIO17" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="IO15" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="NC" x="-20.32" y="-17.78" length="middle" direction="nc"/>
+<pin name="IO23" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="IO22" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="IO21" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="IO20" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="IO19" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="IO18" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="IO9" x="-20.32" y="-12.7" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ESP32-C6-WROOM-1-N8" prefix="U">
+<description> &lt;a href="https://pricing.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif%20Systems/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ESP32-C6-WROOM-1-N8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XCVR_ESP32-C6-WROOM-1-N8">
+<connects>
+<connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="1 28 29_1 29_2 29_3 29_4 29_5 29_6 29_7 29_8 29_9"/>
+<connect gate="G$1" pin="IO0" pad="8"/>
+<connect gate="G$1" pin="IO1" pad="9"/>
+<connect gate="G$1" pin="IO10" pad="11"/>
+<connect gate="G$1" pin="IO11" pad="12"/>
+<connect gate="G$1" pin="IO12" pad="13"/>
+<connect gate="G$1" pin="IO13" pad="14"/>
+<connect gate="G$1" pin="IO15" pad="23"/>
+<connect gate="G$1" pin="IO18" pad="16"/>
+<connect gate="G$1" pin="IO19" pad="17"/>
+<connect gate="G$1" pin="IO2" pad="27"/>
+<connect gate="G$1" pin="IO20" pad="18"/>
+<connect gate="G$1" pin="IO21" pad="19"/>
+<connect gate="G$1" pin="IO22" pad="20"/>
+<connect gate="G$1" pin="IO23" pad="21"/>
+<connect gate="G$1" pin="IO3" pad="26"/>
+<connect gate="G$1" pin="IO4" pad="4"/>
+<connect gate="G$1" pin="IO5" pad="5"/>
+<connect gate="G$1" pin="IO6" pad="6"/>
+<connect gate="G$1" pin="IO7" pad="7"/>
+<connect gate="G$1" pin="IO8" pad="10"/>
+<connect gate="G$1" pin="IO9" pad="15"/>
+<connect gate="G$1" pin="NC" pad="22"/>
+<connect gate="G$1" pin="RXD0/GPIO17" pad="24"/>
+<connect gate="G$1" pin="TXD0/GPIO16" pad="25"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Espressif Systems"/>
+<attribute name="Description" value="
+Multiprotocol Modules ESP32-C6 module, Wi-Fi 6 in 2.4 GHz band, Bluetooth 5, Zigbee 3.0 and Thread. ESP34-WROOM Compatible - ENGINEERING SAMPLE
+"/>
+<attribute name="Package" value="None"/>
+<attribute name="Price" value="None"/>
+<attribute name="Check_prices" value="https://www.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif+Systems/view-part/?ref=eda"/>
+<attribute name="SnapEDA_Link" value="https://www.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif+Systems/view-part/?ref=snap"/>
+<attribute name="MP" value="ESP32-C6-WROOM-1-N8"/>
+<attribute name="Availability" value="In Stock"/>
+<attribute name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12616380&amp;manufacturer=Espressif Systems&amp;part_name=ESP32-C6-WROOM-1-N8&amp;search_term=esp32 c6 wroom"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
